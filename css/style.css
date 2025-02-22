@@ -8,17 +8,23 @@
 }
 
 body {
+  position: relative;
   background: black url('../imgs/tela-celular.jpg') top center fixed no-repeat;
   background-size: cover;
+  width: 100vw;
+  height: 100vh;
 }
 
 .container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
   background-color: white;
-  width: 500px;
-  margin: 220px auto;
+  width: 80vw;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  transform: translate(-50%, -50%);
 }
 
 input[type='submit'] {
